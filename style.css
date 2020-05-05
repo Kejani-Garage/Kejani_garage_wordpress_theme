@@ -1,8 +1,8 @@
 /* 
-Theme Name: Bedsitter
+Theme Name: Kejani Garage
 Author: Alex Mochu
-Author URI: https:alexmochu.github.com
-Description: The official theme for Bedsitter
+Author URI: https:kejanigarage.com
+Description: The official theme for Kejani Garage
 */
 
 body {
@@ -55,8 +55,62 @@ textarea:focus {
 
 /* Banner */
 
-#banner {
+#first-banner {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.header-sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* height: 200px; */
+    /* align-items: center; */
+  }
+
+.header-sub-section > h3 {
+    color: #000;
+    /* height: 200px; */
+    /* align-items: center; */
+  }
+
+#first-banner > img {
+    /* background-color: #f1f1f1; */
+    width: 50%;
+}
+
+#second-banner p {
+    background: none;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 24px;
+}
+
+#second-banner {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+#second-banner section div {
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +123,85 @@ textarea:focus {
     color: white;
 }
 
-#banner h3 {
+.who-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .who-section > img {
+    background-color: #fff;
+    width: 30%;
+  }
+
+  .who-sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* height: 200px; */
+    /* align-items: center; */
+  }
+  
+  .who-sub-section > h2 {
+    background-color: none;
+    width: 100%;
+    margin: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .who-sub-section > p {
+    background-color: #f1f1f1;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    font-size: 5px;
+  }
+
+.what-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .what-section > img {
+    background-color: #fff;
+    width: 30%;
+  }
+
+  .what-sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* height: 200px; */
+    /* align-items: center; */
+  }
+  
+  .what-sub-section > h2 {
+    width: 100%;
+    margin: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .what-sub-section > p {
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 5px;
+  }
+
+#first-banner p {
     background: black;
     border-radius: 8px;
     padding: 0 24px;
@@ -134,7 +266,7 @@ textarea:focus {
 
 nav {
     height: 72px;
-    background: #202125;
+    background: rgba(0, 0, 0, 0);
     width: 100%;
     margin: 0;
     position: fixed;
@@ -145,11 +277,12 @@ nav {
     padding: 0 16px 0 0;
     box-sizing: border-box;
     z-index: 100;
+    border-bottom: 1px solid red;
 }
 
 nav a {
     padding: 0 32px;
-    color: #eee;
+    color: red;
     transition: 0.4s;
 }
 
@@ -174,7 +307,7 @@ nav ul {
 #logo-img {
     display: flex;
     height: 100%;
-    background: #111;
+    background: rgba(0, 0, 0, 0);
     padding: 0 32px;
     align-items: center;
     color: white;
@@ -183,10 +316,6 @@ nav ul {
 
 #logo-img img {
     height: 100px;
-}
-
-#logo-img:hover {
-    background: black;
 }
 
 #menu-icon {
@@ -755,11 +884,12 @@ footer #social-media-footer ul li:hover a .fa-twitter {
     }
 
     .card {
-        width: 45%;
+        width: 30%;
     }
 
     .card .card-image img {
         width: 100%;
+        height: 250px;
     }
 }
 

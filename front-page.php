@@ -1,8 +1,46 @@
 <?php get_header(); ?>
-   <div id="banner">
-      <h1>&lt;Bedsitter_iO/&gt;</h1>
-      <h3>When you learn, teach, </h3>
-      <h3>when you get, give.<h3>
+   <section id="first-banner">
+      <section class='header-sub-section'>   
+         <h1>&lt;Kejani Garage/&gt;</h1>
+         <h3>When you learn, teach, </h3>
+         <h3>when you get, give.<h3>
+      </section>
+      <img src="<?php echo get_template_directory_uri(); ?>/img/clip-programming.png" alt='watch'>
+   </section> 
+   <div id="second-banner">
+      <section class='who-section'>
+         <section class='who-sub-section'>   
+            <h2>&lt;Who We Are/&gt;</h2>
+            <p>We are a boutique digital transformation, 
+               consultancy and software development company that 
+               focus on building world class products, providing 
+               excellent services using technology to inspire and 
+               implement solutions to enable businesses. We maximize 
+               our ability to take on any project by creating a diverse
+               team who can bring their experience and perspectives 
+               together to solve problems.</p>
+         </section>
+         <img src="<?php echo get_template_directory_uri(); ?>/img/clip-5.png" alt='watch'>
+      </section>    
+      <section class='what-section'>
+         <img src="<?php echo get_template_directory_uri(); ?>/img/gummy-programming.png" alt='watch'>
+         <section class='what-sub-section'>  
+            <h2>&lt;What we do/&gt;</h2>
+            <p>Hire the best remote developers by test driving them on
+               existing codebases! Hire works in an integrated way to 
+               improve your hiring pipeline and reduce recruiting burden.
+               Leverage the GitStart Community and talk to pre-vetted developers 
+               across Africa, Brazil, India, Philippines, Hong Kong, Vietnam
+               and more!
+            </p>
+               <span>Fullstack JS</span>
+               <span>Python</span>
+               <span>Java</span>
+               <span>.Net Core</span>
+               <span>React Native</span>
+               <span>Swift</span>
+         </section>
+      </section>
    </div>
    <main>
       <a href="<?php echo site_url('/blog'); ?>">
@@ -13,7 +51,7 @@
 
         $args = array(
             'post_type' => 'post',
-            'posts_per_page' => 8,
+            'posts_per_page' => 9,
         );
 
         $blogposts = new WP_Query($args);
@@ -80,6 +118,6 @@
          <p>
             Source code for all the tutorials are a stored in the following Github organization/repository.
          </p>
-         <a href="https://github.com/bedsitter-io" class="btn-readmore">Bedsitter iO Github Repositories</a>
+         <a href="https://github.com/bedsitter-io" class="btn-readmore">Kejani Garage Github Repositories</a>
       </section>
     <?php get_footer(); ?>

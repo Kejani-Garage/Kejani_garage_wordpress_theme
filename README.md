@@ -1,4 +1,4 @@
-# Bedsitter Tech
+# Kejani Garage
 
 ## Custom Wordpress Blog Theme
 

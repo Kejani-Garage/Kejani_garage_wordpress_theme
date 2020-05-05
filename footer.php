@@ -50,7 +50,7 @@
                   </li>
                </ul>
             </div>
-            <p>This wordpress theme is developed by <a href="https://github.com/bedsitter-io/Bedsitter">Karanja wa Mochu</a></p>
+            <p>This wordpress theme is developed by <a href="https://github.com/bedsitter-io/Bedsitter">Kejani Garage</a></p>
          </div>
       </footer>
    </main>

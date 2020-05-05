@@ -8,7 +8,7 @@
    
    <?php wp_head(); ?>
 
-   <title>Bedsitter iO</title>
+   <title>Kejani Garage</title>
 </head>
 
 <body>
@@ -26,16 +26,16 @@
          <!-- <li>
             <a href="<?php echo site_url('/about'); ?>">About</a>
          </li> -->
-         <div class="searchbox-slide-menu">
+         <!-- <div class="searchbox-slide-menu">
              <?php echo get_search_form();?>
-         </div>
+         </div> -->
       </ul>
    </div>
    </div>
    <nav> 
       <div id="logo-img">
          <a href="<?php echo site_url(''); ?>">
-            <p>Bedsitter iO <sup>alpha</sup></p>
+            <p>Kejani Garage <sup>alpha</sup></p>
          </a>
         </a>
       </div>
@@ -53,26 +53,26 @@
                 <?php if(get_post_type() == 'post') echo 'class="active"'?>
             >Tutorials</a>
          </li>
-         <!-- <li>
+         <li>
             <a href="<?php echo site_url('/products'); ?>"
                 <?php if(get_post_type() == 'product') echo 'class="active"'?>
-            >Shop</a>
-         </li> -->
+            >Projects</a>
+         </li>
          <!-- <li>
             <a href="<?php echo site_url('/about'); ?>"
                 <?php if(is_page('about') == 'post') echo 'class="active"'?>
             >About</a>
          </li> -->
-         <li>
+         <!-- <li>
             <div id="search-icon">
                <i class="fas fa-search"></i>
             </div>
-         </li>
+         </li> -->
       </ul>
    </nav>
-   <div id="searchbox">
+   <!-- <div id="searchbox">
         <?php echo get_search_form();?>
-   </div>
+   </div> -->
 
    <?php if(!is_front_page()){?>
     <main>

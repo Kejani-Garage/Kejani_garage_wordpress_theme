@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-      <h2 class="page-heading">All Products</h2>
+      <h2 class="page-heading">All Projects</h2>
       <section>
       <?php
 
