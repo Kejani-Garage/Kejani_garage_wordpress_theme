@@ -118,6 +118,6 @@
          <p>
             Source code for all the tutorials are a stored in the following Github organization/repository.
          </p>
-         <a href="https://github.com/bedsitter-io" class="btn-readmore">Kejani Garage Github Repositories</a>
+         <a href="https://github.com/Kejani-Garage/" class="btn-readmore">Kejani Garage Github Repositories</a>
       </section>
     <?php get_footer(); ?>

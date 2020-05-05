@@ -29,28 +29,28 @@
             <div id="social-media-footer">
                <ul>
                   <li>
-                     <a href="https://www.facebook.com/bedsitterio/" target="_blank">
+                     <a href="https://www.facebook.com/Kejani-Garage-107910814219468/" target="_blank">
                         <i class="fab fa-facebook"></i>
                      </a>
                   </li>
-                  <li>
-                     <a href="https://www.youtube.com/channel/UCUomAquQnFuLgQUhe5WBRCg/featured?view_as=subscriber" target="_blank">
+                  <!-- <li>
+                     <a href="#" target="_blank">
                         <i class="fab fa-youtube"></i>
                      </a>
-                  </li>
+                  </li> -->
                   <li>
-                     <a href="https://github.com/bedsitter-io" target="_blank">
+                     <a href="https://github.com/Kejani-Garage/" target="_blank">
                         <i class="fab fa-github"></i>
                      </a>
                   </li>
-                  <li>
-                     <a href="https://twitter.com/Bedsitter_io" target="_blank">
+                  <!-- <li>
+                     <a href="#" target="_blank">
                         <i class="fab fa-twitter"></i>
                      </a>
-                  </li>
+                  </li> -->
                </ul>
             </div>
-            <p>This wordpress theme is developed by <a href="https://github.com/bedsitter-io/Bedsitter">Kejani Garage</a></p>
+            <p>This wordpress theme is developed by <a href="https://github.com/Kejani-Garage/Kejani_garage_wordpress_theme">Kejani Garage</a></p>
          </div>
       </footer>
    </main>
